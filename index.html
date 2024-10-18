@@ -1,55 +1,61 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        table {
-            border-collapse: collapse;
-        }
-        table,
-        th,
-        td {
-            border: 1px solid black;
-            padding: 5px;
-        }
-    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>텍스트입력</title>
 </head>
 <body>
-    <table>
-        <caption>
-            향이의 코딩이 잘되는 카페
-        </caption>
-    <thead>
-        <tr>
-            <td>메뉴</td>
-            <td>가격</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>아메리카노</td>
-            <td>1,500원</td>
-        </tr>
-        <tr>
-            <td>라떼</td>
-            <td>3,000원</td>
-        </tr>
-        <tr>
-            <td>율무차</td>
-            <td>4,000원</td>
-        </tr>
-    </tbody>
-    <tfoot>
-        <tr>
-            <td>음료 맛있게 드세요 좋은 코드 짜세요!</td>
-        </tr>
-    </tfoot>
-    </table>
-    <ul>
-        <li>대표자 : 향또신</li>
-        <li>상호명 : 개발자들을 위한 카페</li>
-        <li>전화번호 : 02-1234-5678</li>
-    </ul>
+    <form>
+        <label for="name">이름 : </label>
+        <input type="text" id="name" name="name">
+        <input type="submit" value="submit">
+        <br>
+        <label for="password">비밀번호 : </label>
+        <input type="password" id="password" name="password" >
+        <input type="submit" value="submit">
+        
+        <br>
+        <br>
+        <br>
+        
+        <label for="벤츠">벤츠</label>
+        <input type="radio" id="벤츠" name="cars">
+
+        <label for="싼타페">싼타페</label>
+        <input type="radio" id="싼타페" name="cars">
+        <input type="submit" value="submit">
+        
+        <br>
+        <br>
+        <br>
+        
+        <label for="subscribe">구독하기</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <br>
+        <label for="like">좋아요</label>
+        <input type="checkbox" id="like" name="like">
+        <input type="submit" value="submit">
+
+        <br>
+        <br>
+        <br>
+        
+        <label for="nationlity">국가</label>
+        <select name="nationlity" id="nationlity">
+            <option value="코리아">한국</option>
+            <option value="아메리카">미국</option>
+            <option value="재팬">일본</option>
+            <input type="submit" value="submit">
+        </select>
+
+        <br>
+        <br>
+        <br>
+        <label for="feedback">피드백</label>
+        <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+        <input type="submit" value="submit">
+
+    </form>
 </body>
-</html><!DOCTYPE html>
+</html>
