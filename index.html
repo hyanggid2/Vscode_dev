@@ -3,59 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>텍스트입력</title>
+    <title>Document</title>
+
+<style>
+    body {
+        width: 70vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+    }
+    h1 {
+        width: 100%;
+        text-align: center;
+        background-color: #48baef;
+    }
+    article {
+        width: 80%;
+        margin-bottom: 50px;
+        opacity: 0.8;
+    }
+    section {
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        margin: 10px;
+        padding: 20px;
+    }
+    .content {
+        background-color: rgb(250, 235, 215);
+    }
+    .card-image {
+        height: 200px;
+        background-position: center;
+    }
+</style>
 </head>
 <body>
-    <form>
-        <label for="name">이름 : </label>
-        <input type="text" id="name" name="name">
-        <input type="submit" value="submit">
-        <br>
-        <label for="password">비밀번호 : </label>
-        <input type="password" id="password" name="password" >
-        <input type="submit" value="submit">
-        
-        <br>
-        <br>
-        <br>
-        
-        <label for="벤츠">벤츠</label>
-        <input type="radio" id="벤츠" name="cars">
-
-        <label for="싼타페">싼타페</label>
-        <input type="radio" id="싼타페" name="cars">
-        <input type="submit" value="submit">
-        
-        <br>
-        <br>
-        <br>
-        
-        <label for="subscribe">구독하기</label>
-        <input type="checkbox" id="subscribe" name="subscribe">
-        <br>
-        <label for="like">좋아요</label>
-        <input type="checkbox" id="like" name="like">
-        <input type="submit" value="submit">
-
-        <br>
-        <br>
-        <br>
-        
-        <label for="nationlity">국가</label>
-        <select name="nationlity" id="nationlity">
-            <option value="코리아">한국</option>
-            <option value="아메리카">미국</option>
-            <option value="재팬">일본</option>
-            <input type="submit" value="submit">
-        </select>
-
-        <br>
-        <br>
-        <br>
-        <label for="feedback">피드백</label>
-        <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
-        <input type="submit" value="submit">
-
-    </form>
+    
 </body>
 </html>
